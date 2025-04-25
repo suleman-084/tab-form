@@ -19,8 +19,8 @@ const TabForm = () => {
     
 ]
 
-    return <div>
-        <div>
+    return <div className="header">
+        <div className="header_section">
             {tabs.map((t)=><div>{t.name}</div>)}
         </div>
     </div>;

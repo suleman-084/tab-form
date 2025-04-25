@@ -2,3 +2,8 @@
   font-family: sans-serif;
   text-align: center;
 }
+.header_section {
+  display: flex;
+  padding: 2px;
+  justify-content: space-between;
+}
