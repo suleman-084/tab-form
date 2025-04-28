@@ -2,8 +2,18 @@
   font-family: sans-serif;
   text-align: center;
 }
-.header_section {
+.header {
   display: flex;
-  padding: 2px;
-  justify-content: space-between;
+}
+.header_section {
+  padding: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.tab_body {
+  display: flex;
+  border: 2px solid black;
+  height: 150px;
+  padding: 5px;
+  margin-top: 20px;
 }
