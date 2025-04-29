@@ -4,6 +4,13 @@ import Settings from "./Settings";
 import Interests from "./interests";
 
 const TabForm = () => {
+  const [data, setData] = useState({
+    name: "Suleman khan",
+    age: "25",
+    email: "suleman@gmail.com ",
+    interests: ["coding", "cricket", "movies"],
+    theme: "dark",
+  });
   const [activeTab, setActiveTab] = useState(0);
   const tabs = [
     {
@@ -34,7 +41,7 @@ const TabForm = () => {
         ))}
       </div>
       <div className="tab_body">
-        <ActiveTabComponent />
+        <ActiveTabComponent data={data} setData={setData} />
       </div>
     </div>
   );
